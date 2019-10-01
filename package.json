@@ -5,7 +5,7 @@
   "author": "ahsverus <arthursand1411@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --mode development"
+    "build": "webpack-dev-server --mode development"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -13,7 +13,8 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
     "webpack": "^4.41.0",
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
   },
   "dependencies": {
     "react": "^16.10.1",
